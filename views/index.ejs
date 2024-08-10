@@ -14,7 +14,11 @@
             </a>
         </div>
         <div class="messageContainer">
-
+            <ul>
+                <% messages.forEach((message) => { %>
+                    <%- include('messages',{message:message}); %>
+                <% }); %>
+            </ul>
         </div>
     </div>
 </body>

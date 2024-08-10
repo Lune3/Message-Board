@@ -23,7 +23,7 @@ const messages = [
 ];
 
 app.get("/",(req,res) => {
-    res.render("index",{message:messages});
+    res.render("index",{messages:messages});
 });
 
 app.listen(process.env.PORT,() => {
