@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.nameContainter{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    align-self: center;
+}
+
+.messageContainer{
+    display: flex;
+    justify-content: flex-start;
+    border: 2px solid black;
+    margin-top: 100px;
+    padding: 15px;
+    border-radius: 10px;
+    height: 700px;
+    overflow: scroll;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    margin: 2px;
+}
